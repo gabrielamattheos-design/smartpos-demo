@@ -1,0 +1,54 @@
+/* Responsive desktop + móvil */
+html, body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #ffffff;
+}
+
+/* Desktop */
+.device {
+  transform-origin: top center;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .device {
+    transform: scale(0.85);
+  }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    background: #ffffff;
+  }
+
+  .layout {
+    align-items: flex-start;
+    padding-top: 0;
+    overflow: hidden;
+  }
+
+  .device {
+    transform: scale(0.72);
+    transform-origin: top center;
+    margin-top: 0;
+  }
+}
+
+/* Celular pequeño */
+@media (max-width: 390px) {
+  .device {
+    transform: scale(0.65);
+  }
+}
