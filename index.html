@@ -358,6 +358,109 @@ label{
   color:var(--pink);
   font-size:25px;
 }
+
+.destination-step{
+  padding:18px 0 18px;
+}
+.destination-step .btn{
+  min-height:39px;
+  border-radius:8px;
+  margin-top:10px;
+}
+.dest-copy{
+  text-align:center;
+  font-size:12px;
+  line-height:1.25;
+  margin:0 0 15px;
+}
+.dest-copy p{
+  margin:0 0 12px;
+}
+.dest-copy b{
+  color:var(--purple);
+  font-size:15px;
+  font-weight:900;
+}
+.dest-copy small{
+  display:block;
+  text-align:left;
+  font-size:10px;
+  line-height:1.22;
+  color:#000;
+}
+.dest-card{
+  border:2px solid var(--purple);
+  border-radius:12px;
+  background:#fff;
+  padding:9px 10px;
+  margin:0 0 18px;
+}
+.dest-account{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:8px 0;
+  cursor:pointer;
+}
+.dest-separator{
+  height:1px;
+  background:#e1e1e1;
+  margin:0 2px;
+}
+.radio-dot{
+  width:21px;
+  height:21px;
+  border:1.5px solid #b7b7b7;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+}
+.dest-account.selected .radio-dot{
+  border-color:var(--purple);
+}
+.dest-account.selected .radio-dot:after{
+  content:"";
+  width:11px;
+  height:11px;
+  background:var(--purple);
+  border-radius:50%;
+}
+.dest-account-text b{
+  display:block;
+  color:var(--purple);
+  font-size:12px;
+  line-height:1.1;
+}
+.dest-account-text small{
+  display:block;
+  color:#000;
+  font-size:8.5px;
+  font-weight:700;
+  margin-top:2px;
+}
+.dest-info{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  color:var(--purple);
+  font-size:9.5px;
+  font-weight:800;
+  margin:0 0 18px 10px;
+}
+.dest-info span{
+  width:16px;
+  height:16px;
+  border:1.5px solid var(--purple);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:11px;
+  font-weight:900;
+}
+
 .spinner{
   width:110px;
   height:110px;
@@ -376,7 +479,7 @@ label{
 .success-check{
   width:95px;
   height:95px;
-  background:var(--green);
+  background:linear-gradient(135deg,var(--pink),var(--purple));
   border-radius:50%;
   color:white;
   margin:0 auto 18px;
@@ -386,11 +489,11 @@ label{
   justify-content:center;
 }
 .success h2{
-  color:var(--green);
+  color:var(--pink);
 }
 .total-box{
-  background:#f1faf4;
-  border:1px solid #dceee1;
+  background:#fdf1f8;
+  border:1px solid #f1c9df;
   border-radius:9px;
   padding:14px;
   margin:18px 0;
@@ -398,7 +501,7 @@ label{
 }
 .total-box b{
   display:block;
-  color:var(--green);
+  color:var(--pink);
   font-size:27px;
 }
 .ticket{
@@ -688,6 +791,109 @@ label{
 .arrow{
   font-size:20px!important;
 }
+
+.destination-step{
+  padding:18px 0 18px;
+}
+.destination-step .btn{
+  min-height:39px;
+  border-radius:8px;
+  margin-top:10px;
+}
+.dest-copy{
+  text-align:center;
+  font-size:12px;
+  line-height:1.25;
+  margin:0 0 15px;
+}
+.dest-copy p{
+  margin:0 0 12px;
+}
+.dest-copy b{
+  color:var(--purple);
+  font-size:15px;
+  font-weight:900;
+}
+.dest-copy small{
+  display:block;
+  text-align:left;
+  font-size:10px;
+  line-height:1.22;
+  color:#000;
+}
+.dest-card{
+  border:2px solid var(--purple);
+  border-radius:12px;
+  background:#fff;
+  padding:9px 10px;
+  margin:0 0 18px;
+}
+.dest-account{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:8px 0;
+  cursor:pointer;
+}
+.dest-separator{
+  height:1px;
+  background:#e1e1e1;
+  margin:0 2px;
+}
+.radio-dot{
+  width:21px;
+  height:21px;
+  border:1.5px solid #b7b7b7;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+}
+.dest-account.selected .radio-dot{
+  border-color:var(--purple);
+}
+.dest-account.selected .radio-dot:after{
+  content:"";
+  width:11px;
+  height:11px;
+  background:var(--purple);
+  border-radius:50%;
+}
+.dest-account-text b{
+  display:block;
+  color:var(--purple);
+  font-size:12px;
+  line-height:1.1;
+}
+.dest-account-text small{
+  display:block;
+  color:#000;
+  font-size:8.5px;
+  font-weight:700;
+  margin-top:2px;
+}
+.dest-info{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  color:var(--purple);
+  font-size:9.5px;
+  font-weight:800;
+  margin:0 0 18px 10px;
+}
+.dest-info span{
+  width:16px;
+  height:16px;
+  border:1.5px solid var(--purple);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:11px;
+  font-weight:900;
+}
+
 .spinner{
   width:82px!important;
   height:82px!important;
@@ -946,6 +1152,21 @@ body{
  z-index:10;
 }
 
+
+/* Ajustes corporativos solicitados */
+.success-check{
+  background:linear-gradient(135deg,var(--pink),var(--purple)) !important;
+  color:#fff !important;
+}
+.success h2,
+.total-box b{
+  color:var(--pink) !important;
+}
+.total-box{
+  background:#fdf1f8 !important;
+  border:1px solid #f1c9df !important;
+}
+
 </style>
 </head>
 <body>
@@ -1054,21 +1275,27 @@ body{
           <button class="btn outline" onclick="go(3)">Volver</button>
         </section>
 
-        <section id="step6" class="step">
-          <p class="sub">Selecciona dónde el cliente prefiere recibir el monto</p>
-
-          <div id="bankRipley" class="bank" onclick="selectBank('Banco Ripley')">
-            <span class="icon">🏦</span>
-            <span><b>Banco Ripley</b><small>Cuenta Corriente N° 334324XXXXX</small></span>
-            <span class="arrow">›</span>
+        <section id="step6" class="step destination-step">
+          <div class="dest-copy">
+            <p>Vas a contratar un Avance por <b id="destMonto">$2.000.000</b><br>en <b id="destCuotas">36 cuotas</b> de <b id="destValorCuota">$91.280</b></p>
+            <small>Solo puedes transferir tu Avance a cuentas donde tú seas el titular.</small>
           </div>
 
-          <div id="bankOtro" class="bank" onclick="selectBank('Otro Banco')">
-            <span class="icon">🏛️</span>
-            <span><b>Otro Banco</b><small>Transferencia a otro banco N° 123456XXXXX</small></span>
-            <span class="arrow">›</span>
+          <div class="dest-card">
+            <div id="bankRipley" class="dest-account selected" onclick="selectBank('Banco Ripley')">
+              <span class="radio-dot"></span>
+              <span class="dest-account-text"><b>Banco Ripley</b><small>Cuenta Vista N°4043178###</small></span>
+            </div>
+            <div class="dest-separator"></div>
+            <div id="bankOtro" class="dest-account" onclick="selectBank('Otro Banco')">
+              <span class="radio-dot"></span>
+              <span class="dest-account-text"><b>Banco Ripley</b><small>Cuenta Corriente N°4070006###</small></span>
+            </div>
           </div>
 
+          <div class="dest-info"><span>i</span>Abono inmediato a tu cuenta</div>
+
+          <button class="btn" onclick="go(7)">Continuar</button>
           <button class="btn outline" onclick="go(5)">Volver</button>
         </section>
 
@@ -1291,6 +1518,12 @@ function updateUI(){
   const costoTotalEl=document.getElementById("costoTotalTxt");
   if(costoTotalEl) costoTotalEl.textContent=money(costoTotal);
   document.getElementById("successMonto").textContent=money(data.monto);
+  const destMonto=document.getElementById("destMonto");
+  if(destMonto){
+    destMonto.textContent=money(data.monto);
+    document.getElementById("destCuotas").textContent=data.cuotas+" cuotas";
+    document.getElementById("destValorCuota").textContent=money(cuota);
+  }
 
   document.getElementById("btnLogin").disabled=data.rutVendedor.length<7;
   document.getElementById("btnCliente").disabled=data.rutCliente.length<7;
@@ -1325,6 +1558,7 @@ function go(step){
   if(step===1) activeInput="rutVendedor";
   if(step===3) activeInput="rutCliente";
   if(step===5){ activeInput="monto"; amountFresh=true; document.getElementById("keypad3").classList.remove("keyboard-hidden"); }
+  if(step===6 && !data.banco) selectBank("Banco Ripley");
   if(step===7) setTimeout(()=>go(9),5000);
   if(step===9) setTimeout(()=>{},6000);
   if(step===10) fillVoucher();
@@ -1360,7 +1594,6 @@ function selectBank(bank){
   data.banco=bank;
   document.getElementById("bankRipley").classList.toggle("selected",bank==="Banco Ripley");
   document.getElementById("bankOtro").classList.toggle("selected",bank==="Otro Banco");
-  setTimeout(()=>go(7),600);
 }
 
 function fillVoucher(){
